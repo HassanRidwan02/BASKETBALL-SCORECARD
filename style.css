@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9AABD8;
+}
+
+
+h1 {
+    color: #fff;
+}
+
+button {
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0 5px;
+    color: #9AABD8;
+    background-color: transparent;
+}
+
+.score-card {
+    width: 50%;
+    height: 50vh;
+    background: #1B244A;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 10px;
+}
+
+.score{
+    color: #F94F6D;
+}
+
+
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
